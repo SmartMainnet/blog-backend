@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+# static files
+/uploads
+
+# misc
+.env
