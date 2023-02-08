@@ -15,10 +15,7 @@ const UserSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    avatarUrl: {
-      type: String,
-      default: '/uploads/avatar.png',
-    },
+    avatarUrl: String,
   },
   {
     timestamps: true,
